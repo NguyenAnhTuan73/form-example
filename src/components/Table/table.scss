@@ -1,0 +1,139 @@
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-body {
+  display: flex;
+  justify-content: space-between;
+  &-left {
+    padding: 10px 3rem;
+    flex: 1;
+    justify-items: left;
+  }
+  &-right {
+    flex: 1;
+    padding: 10px 3rem;
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.form-item {
+  text-align: right;
+  font-weight: bold;
+}
+.ant-form-item-required,
+.ant-form-item-label {
+  font-weight: 600;
+}
+.form-button {
+  text-align: right;
+}
+.ant-form-item-label {
+  display: flex;
+  justify-items: baseline;
+}
+
+.ant-form-item {
+  display: flex;
+
+  .ant-form-item-label {
+    flex: 2 !important;
+    text-align: left;
+  }
+
+  .ant-form-item-control {
+    flex: 3 !important;
+  }
+}
+
+// form footer
+
+.form-footer {
+  &-title {
+    p {
+      font-weight: 600;
+
+      line-height: 20px;
+      text-decoration: underline;
+    }
+  }
+}
+// form detail
+.form-detail-produce {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+.form-detail-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding-bottom: 4px;
+  padding-left: 0;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+.form-datail-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .item-no {
+    width: 10%;
+  }
+}
+.space-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.btn {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: all 0.3s ease;
+  margin: 0 4px;
+  &:hover svg {
+    color: red;
+  }
+
+  svg {
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.ant-input {
+  width: 50%;
+}
+.ant-space-item:first-child {
+  width: 5%;
+}
+
+.ant-space-item:last-child {
+  width: 10%;
+}
+.ant-space-item:nth-child(2),
+.ant-space-item:nth-child(3) {
+  width: 20%;
+}
+.ant-space-item:nth-child(4) {
+  width: 25%;
+}
+p {
+  font-weight: bold;
+}

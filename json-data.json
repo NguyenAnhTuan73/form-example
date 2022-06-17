@@ -1,0 +1,49 @@
+{
+   "id":"399e03d2-df67-48d8-befa-6407df00e1f5",
+   "no":"Khuyenmai1",
+   "name":"Khuyến mãi 1",
+   "type":{
+      "value":"Direct"
+   },
+   "applyTransaction":{
+      "value":"ProductTopup"
+   },
+   "applySalesAgent":{
+      "value":"Both"
+   },
+   "applyRanks":[
+      {
+         "value":"Normal"
+      }
+   ],
+   "promotionCondition":{
+      "value":"CalculateProgram"
+   },
+   "limitOrder":5,
+   "minAmountApply":0,
+   "promotionPercent":30,
+   "createdAt":"09/05/2022 16:56:09",
+   "dateFrom":1652090053,
+   "dateTo":1652176464,
+   "realDateTo":"2022-05-09T09:57:12.000Z",
+   "salesPromotionItems":[
+      {
+         "sortOrder":0,
+         "no":"VINA100",
+         "productId":"ae1dd9f1-f1c2-43a3-9c1c-c9af0ecad81f",
+         "promotionPercent":30
+      },
+      {
+         "sortOrder":1,
+         "no":"VT009",
+         "productId":"843d3502-bd9b-4f9c-836c-0787e8d5261d",
+         "promotionPercent":30
+      },
+      {
+         "sortOrder":2,
+         "no":"S001",
+         "productId":"01a2f3b4-63a7-4c76-a2be-5e89381d781d",
+         "promotionPercent":30
+      }
+   ]
+}
